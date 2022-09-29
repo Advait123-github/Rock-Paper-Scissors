@@ -95,4 +95,10 @@ while(True):
         continue
     elif(w=="n"):
         print("You Left The Game")
+        a_ = input("Do you enjoyed the game...print y for yes and n for no")
+    if a_ == "y":
+        print("Thankyou")
+    else:
+        print("Ok...we will improve the game")
+        
         break
